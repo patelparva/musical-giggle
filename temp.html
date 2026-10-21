@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Forever Sister 💗</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-family: Georgia, serif;
+      color: #7b2148;
+      background: linear-gradient(135deg, #ffe0ec, #fff0f5, #f8c8dc);
+      overflow-x: hidden;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.8);
+      padding: 30px 24px;
+      margin: 20px;
+      border-radius: 25px;
+      max-width: 420px;
+      box-shadow: 0 10px 35px #d96b9633;
+      animation: appear 1.5s ease;
+    }
+
+    h1 {
+      color: #d63384;
+      font-size: 2.2rem;
+    }
+
+    .heart {
+      font-size: 55px;
+      animation: beat 1s infinite;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    button {
+      background: #e75480;
+      color: white;
+      border: none;
+      padding: 14px 22px;
+      border-radius: 30px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    #secret {
+      display: none;
+      margin-top: 20px;
+      color: #b02564;
+    }
+
+    @keyframes beat {
+      50% { transform: scale(1.2); }
+    }
+
+    @keyframes appear {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="heart">💗</div>
+
+    <h1>Happy Birthday, My Sister!</h1>
+
+    <p>
+      We may not be sisters by blood,<br>
+      but we are sisters by heart. 🫂
+    </p>
+
+    <p>
+      From childhood memories to endless laughter,
+      from silly fights to being there for each other,
+      you have become a part of my soul.
+    </p>
+
+    <p>
+      I may not have a sister by birth,<br>
+      but life gave me YOU. 🌷
+    </p>
+
+    <button onclick="showLove()">
+      Open my heart 💌
+    </button>
+
+    <div id="secret">
+      <h2>My Forever Person 🥹💖</h2>
+      <p>
+        No matter where life takes us,
+        you will always have a sister in me.
+        Someone who will listen to you,
+        stand beside you, protect your smile,
+        and love you endlessly.
+      </p>
+      <p>
+        You aren't just my childhood friend.
+        You're the sister my heart chose.
+        <br><br>
+        I love you forever! 🎂💕
+      </p>
+    </div>
+  </div>
+
+  <script>
+    function showLove() {
+      document.getElementById("secret").style.display = "block";
+    }
+  </script>
+</body>
+</html>
